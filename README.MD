@@ -7,7 +7,7 @@
 * influxdb
     下载influxDB，[下载地址](https://www.influxdata.com/)
     配置influx.conf
-    (```)
+    ```
     ### Welcome to the InfluxDB configuration file.
 
     # The values in this file override the default values used by the system if
@@ -568,7 +568,7 @@
       # Maximum version of the tls protocol that will be negotiated. If not specified, uses the
       # default settings from Go's crypto/tls package.
       # max-version = "tls1.2"
-    (```)
+    ```
     使用influx进入控制台
     查看数据库
     `show databases`

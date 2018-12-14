@@ -569,12 +569,12 @@
       # default settings from Go's crypto/tls package.
       # max-version = "tls1.2"
     ```
-    使用influx进入控制台
+    使用influx进入控制台</br>
     查看数据库
-    `show databases`
+    ```show databases```
     创建数据库
-    `CREATE DATABASE mydb`
+    ```CREATE DATABASE mydb```
     进入数据库
-    `use mydb`
+    ```use mydb```
     查询
-    `select *  from tags`
+    ```select *  from tags```

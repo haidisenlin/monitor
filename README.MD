@@ -4,3 +4,5 @@
 
 ## 开发环境搭建
 * zeromq
+* influxdb
+

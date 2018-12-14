@@ -1,0 +1,33 @@
+2018-11-26 15:18:52 [INFO] [custom/test/monitor/bin/source/httpServer.go:39] 操作人：lihs,操作任务bat：./restart.bat 
+2018-11-26 15:18:52 [INFO] [custom/test/monitor/bin/source/httpServer.go:74] 执行命令错误EOF
+
+2018-11-26 15:18:52 [INFO] [custom/test/monitor/bin/source/httpServer.go:78] 执行命令:./restart.bat  完成
+2018-11-26 15:19:36 [INFO] [custom/test/monitor/bin/source/httpServer.go:22] 启动运维服务 .端口1210..
+2018-11-26 15:19:39 [INFO] [custom/test/monitor/bin/source/httpServer.go:39] 操作人：lihs,操作任务bat：./restart.bat 
+2018-11-26 15:19:39 [INFO] [custom/test/monitor/bin/source/httpServer.go:74] 执行命令错误：EOF
+2018-11-26 15:19:39 [INFO] [custom/test/monitor/bin/source/httpServer.go:78] 执行命令:./restart.bat  完成
+2018-11-26 15:19:41 [INFO] [custom/test/monitor/bin/source/httpServer.go:39] 操作人：lihs,操作任务bat：./restart.bat 
+2018-11-26 15:19:41 [INFO] [custom/test/monitor/bin/source/httpServer.go:74] 执行命令错误：EOF
+2018-11-26 15:19:41 [INFO] [custom/test/monitor/bin/source/httpServer.go:78] 执行命令:./restart.bat  完成
+2018-11-26 15:19:49 [INFO] [custom/test/monitor/bin/source/httpServer.go:22] 启动运维服务 .端口1210..
+2018-11-26 15:19:54 [INFO] [custom/test/monitor/bin/source/httpServer.go:39] 操作人：lihs,操作任务bat：./restart.bat 
+2018-11-26 15:19:54 [INFO] [custom/test/monitor/bin/source/httpServer.go:74] D:\workspaces\go\src\custom\test\monitor\bin>for /F "tokens=5" %i in ('netstat -aon | findstr ":9443"') do (taskkill /F /PID  %i ) 
+D:\workspaces\go\src\custom\test\monitor\bin>(taskkill /F /PID  13776 ) 
+成功: 已终止 PID 为 13776 的进程。
+D:\workspaces\go\src\custom\test\monitor\bin>(taskkill /F /PID  13776 ) 
+D:\workspaces\go\src\custom\test\monitor\bin>start cmd /k D:\\Program\\WSO2\\"API Manager"\\2.5.0\\bin\\wso2server.bat 
+D:\workspaces\go\src\custom\test\monitor\bin>exit
+
+2018-11-26 15:19:54 [INFO] [custom/test/monitor/bin/source/httpServer.go:78] 执行命令:./restart.bat  完成
+2018-11-26 15:21:26 [INFO] [custom/test/monitor/bin/source/httpServer.go:22] 启动运维服务 .端口1210..
+2018-11-26 15:21:31 [INFO] [custom/test/monitor/bin/source/httpServer.go:22] 启动运维服务 .端口1210..
+2018-11-26 15:21:36 [INFO] [custom/test/monitor/bin/source/httpServer.go:39] 操作人：lihs,操作任务bat：./restart.bat 
+2018-11-26 15:21:36 [INFO] [custom/test/monitor/bin/source/httpServer.go:74] [0;%dmD:\workspaces\go\src\custom\test\monitor\bin>for /F "tokens=5" %i in ('netstat -aon | findstr ":9443"') do (taskkill /F /PID  %i ) 
+D:\workspaces\go\src\custom\test\monitor\bin>(taskkill /F /PID  23080 ) 
+成功: 已终止 PID 为 23080 的进程。
+D:\workspaces\go\src\custom\test\monitor\bin>(taskkill /F /PID  23080 ) 
+D:\workspaces\go\src\custom\test\monitor\bin>start cmd /k D:\\Program\\WSO2\\"API Manager"\\2.5.0\\bin\\wso2server.bat 
+D:\workspaces\go\src\custom\test\monitor\bin>exit
+
+[0m
+2018-11-26 15:21:36 [INFO] [custom/test/monitor/bin/source/httpServer.go:78] 执行命令:./restart.bat  完成
